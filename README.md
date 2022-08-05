@@ -6,3 +6,4 @@
 - :white_check_mark: [Day 002](day-002): Tip Calculator
 - :white_check_mark: [Day 003](day-003): Treasure Island
 - :white_check_mark: [Day 004](day-004): Rock, Paper, Scissors Game
+- :white_check_mark: [Day 005](day-005): Random Password Generator
