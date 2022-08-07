@@ -7,3 +7,5 @@
 - :white_check_mark: [Day 003](day-003): Treasure Island
 - :white_check_mark: [Day 004](day-004): Rock, Paper, Scissors Game
 - :white_check_mark: [Day 005](day-005): Random Password Generator
+- :white_check_mark: Day 006: Completed the maze challenge on [Reeborg's World](https://reeborg.ca/index_en.html)
+- :white_check_mark: [Day 007](day-007): Hangman Game
