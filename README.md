@@ -9,3 +9,4 @@
 - :white_check_mark: [Day 005](day-005): Random Password Generator
 - :white_check_mark: Day 006: Completed the maze challenge on [Reeborg's World](https://reeborg.ca/index_en.html)
 - :white_check_mark: [Day 007](day-007): Hangman Game
+- :white_check_mark: [Day 008](day-008): Caesar Cipher
