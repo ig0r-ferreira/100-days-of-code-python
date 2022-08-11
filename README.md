@@ -13,3 +13,4 @@
 - :white_check_mark: [Day 009](day-009): Blind Auction
 - :white_check_mark: [Day 010](day-010): Calculator
 - :white_check_mark: [Day 011](day-011): Blackjack Capstone Project
+- :white_check_mark: [Day 012](day-012): Number Guessing Game
