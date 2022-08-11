@@ -12,3 +12,4 @@
 - :white_check_mark: [Day 008](day-008): Caesar Cipher
 - :white_check_mark: [Day 009](day-009): Blind Auction
 - :white_check_mark: [Day 010](day-010): Calculator
+- :white_check_mark: [Day 011](day-011): Blackjack Capstone Project
