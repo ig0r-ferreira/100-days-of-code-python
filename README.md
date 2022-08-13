@@ -14,3 +14,5 @@
 - :white_check_mark: [Day 010](day-010): Calculator
 - :white_check_mark: [Day 011](day-011): Blackjack Capstone Project
 - :white_check_mark: [Day 012](day-012): Number Guessing Game
+- :white_check_mark: Day 013: Debug exercises
+- :white_check_mark: [Day 014](day-014): Higher Lower Game
