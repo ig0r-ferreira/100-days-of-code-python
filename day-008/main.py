@@ -1,7 +1,8 @@
 import art
 
 
-def caesar_cipher(cipher_direction:str, start_text:str, shift_amount:int) -> str:
+def caesar_cipher(cipher_direction: str, start_text: str, shift_amount: int) -> str:
+    # noinspection PyPep8Naming
     final_text, TOTAL_LETTERS, INT_A, INT_Z_PLUS_ONE = "", 26, 97, 123
     
     shift_amount %= TOTAL_LETTERS 

@@ -9,7 +9,7 @@ print('''
 |                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
 |___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
           |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
- _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+ _________|___________| ;`-.o`"=._; ." ` '`."` . "-._ /_______________|_______
 |                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
 |___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
 ____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
@@ -21,27 +21,26 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.") 
+print("Your mission is to find the treasure.")
 
 game_over_msg = "Game Over."
 
 choice = input(
-    'You\'re at a crossroad. Where do you want to go? Type "left" or "right"\n' \
+    'You\'re at a crossroad. Where do you want to go? Type "left" or "right"\n'
     '=> '
 ).lower()
 
-
-if choice == "left":  
+if choice == "left":
     choice = input(
-        'You\'ve come to a lake. There is an island in the middle of the lake. ' \
-        'Type "wait" to wait for a boat. Type "swim" to swim across.\n' \
+        'You\'ve come to a lake. There is an island in the middle of the lake. '
+        'Type "wait" to wait for a boat. Type "swim" to swim across.\n'
         '=> '
     ).lower()
-    
+
     if choice == "swim":
         choice = input(
-            "You arrive at the island unharmed. There is a house with 3 doors. " \
-            "One red, one yellow and one blue. Which colour do you choose?\n" \
+            "You arrive at the island unharmed. There is a house with 3 doors. "
+            "One red, one yellow and one blue. Which colour do you choose?\n"
             "=> "
         ).lower()
 

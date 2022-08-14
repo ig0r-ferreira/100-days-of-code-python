@@ -1,3 +1,4 @@
+from typing import List
 from random import randint
 import art
 
@@ -23,7 +24,7 @@ def set_difficulty() -> str:
     return chosen_mode
 
 
-def ask_for_guess(number_list:'list[int]') -> int:
+def ask_for_guess(number_list: List[int]) -> int:
     try:
         number = int(input("Make a guess: "))
     except ValueError:
@@ -42,7 +43,7 @@ def clear_console() -> None:
     print("\033[H\033[J", end="")
 
 
-def format_error(content:str) -> str:
+def format_error(content: str) -> str:
     return "{red_color}Error: {msg}{reset}".format(red_color="\033[1;31m", msg=content, reset="\033[m")
 
 
@@ -59,7 +60,7 @@ def play_game():
             try:
                 number_guess = ask_for_guess(guess_list)
             except Exception as error:
-                print(format_error(error))
+                print(format_error(str(error)))
             else:
                 guess_list.append(number_guess)
                 break

@@ -45,9 +45,9 @@ def get_inputs() -> list:
     return args
 
 
-if __name__ == "__main__":
+def main():
     bids_per_person = {}
-    
+
     while True:
         print(f"{art.LOGO}\nBlind auction\n")
 
@@ -64,6 +64,11 @@ if __name__ == "__main__":
             break
 
         clear_console()
-    
+
     winner = sorted(bids_per_person, key=bids_per_person.get, reverse=True)[0]
     print(f"The winner is {winner} with a bid of ${bids_per_person[winner]:.2f}.")
+
+
+if __name__ == "__main__":
+    main()
+    
