@@ -16,3 +16,4 @@
 - :white_check_mark: [Day 012](day-012): Number Guessing Game
 - :white_check_mark: Day 013: Debug exercises
 - :white_check_mark: [Day 014](day-014): Higher Lower Game
+- :white_check_mark: [Day 015](day-015): Coffee Machine
