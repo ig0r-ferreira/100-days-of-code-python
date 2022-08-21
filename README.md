@@ -22,3 +22,5 @@
 - :white_check_mark: [Day 015](day-015): Coffee Machine
 - :white_check_mark: [Day 016](day-016): Coffee Machine in OOP
 - :white_check_mark: [Day 017](day-017): Quiz Game
+- :white_check_mark: [Day 018](day-018): Hirst Painting
+- :white_check_mark: [Day 019](day-019): Turtle Race
