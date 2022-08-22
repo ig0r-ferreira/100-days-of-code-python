@@ -4,6 +4,13 @@ from snake import Snake
 from food import Food
 from scoreboard import Scoreboard
 
+enter = False
+
+
+def on_enter(*_):
+    global enter
+    enter = True
+
 
 def main():
     screen = turtle.Screen()
@@ -15,11 +22,22 @@ def main():
     root = screen.getcanvas().winfo_toplevel()
     root.resizable(False, False)
 
-    snake = Snake("red")
+    turtle.hideturtle()
+    turtle.penup()
+    turtle.color("white")
+    turtle.write("PRESS ENTER TO START", align="center", font=("Arial", 22, "bold"))
+
+    screen.listen()
+    while not enter:
+        screen.update()
+        screen.onkey(on_enter, "Return")
+
+    turtle.clear()
+
+    snake = Snake()
     food = Food()
     scoreboard = Scoreboard()
 
-    screen.listen()
     screen.onkey(snake.up, "Up")
     screen.onkey(snake.down, "Down")
     screen.onkey(snake.left, "Left")
