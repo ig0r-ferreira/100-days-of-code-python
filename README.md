@@ -24,3 +24,4 @@
 - :white_check_mark: [Day 017](day-017): Quiz Game
 - :white_check_mark: [Day 018](day-018): Hirst Painting
 - :white_check_mark: [Day 019](day-019): Turtle Race
+- :white_check_mark: [Days 020 and 021](day-020-and-021/): Snake Game
