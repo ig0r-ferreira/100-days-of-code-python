@@ -4,33 +4,38 @@ from player import Player
 from car_manager import CarManager
 from scoreboard import Scoreboard
 
-screen = Screen()
-screen.setup(width=600, height=600)
-screen.tracer(0)
 
-player = Player()
-can_manager = CarManager()
+def main() -> None:
+    screen = Screen()
+    screen.setup(width=600, height=600)
+    screen.tracer(0)
 
-screen.onkeypress(fun=player.go_forward, key="Up")
-screen.listen()
+    player = Player()
+    can_manager = CarManager()
 
-show_car = False
-game_is_on = True
+    screen.onkeypress(fun=player.go_across, key="Up")
+    screen.listen()
 
-while game_is_on:
-    time.sleep(0.1)
-    screen.update()
+    game_is_on = True
 
-    if not show_car:
-        can_manager.new_car()
-        show_car = True
-    else:
-        show_car = False
+    while game_is_on:
+        time.sleep(0.1)
+        screen.update()
 
-    can_manager.move_cars()
-    if any((car.ycor() + 30) >= player.ycor() >= (car.ycor() - 30) and player.distance(car) <= 25
-           for car in can_manager.cars):
-        print("GAME OVER")
-        break
+        can_manager.create_car()
 
-screen.exitonclick()
+        if not player.is_at_finish_line():
+            can_manager.move_cars()
+        else:
+            player.go_to_start()
+            can_manager.level_up()
+
+        if can_manager.has_collision_with(player):
+            print("GAME OVER")
+            game_is_on = False
+
+    screen.exitonclick()
+
+
+if __name__ == "__main__":
+    main()
