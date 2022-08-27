@@ -9,10 +9,7 @@ class Snake:
     def __init__(self, color: str = "red") -> None:
         self.segments: List[Turtle] = []
         self.color: str = color
-        for i in range(3):
-            position = (0 - (i * 20), 0)
-            self.add_segment(position)
-
+        self.create_snake()
         self.head: Turtle = self.segments[0]
 
     def add_segment(self, position: Tuple[float, float]):
@@ -21,6 +18,11 @@ class Snake:
         segment.penup()
         segment.goto(position)
         self.segments.append(segment)
+
+    def create_snake(self):
+        for i in range(3):
+            position = (0 - (i * 20), 0)
+            self.add_segment(position)
 
     def grow_up(self) -> None:
         self.add_segment(self.segments[-1].pos())
@@ -51,3 +53,11 @@ class Snake:
     def right(self) -> None:
         if self.head.heading() not in (LEFT, RIGHT):
             self.head.setheading(RIGHT)
+
+    def reset(self):
+        while len(self.segments):
+            self.segments.pop().reset()
+
+        self.segments.clear()
+        self.create_snake()
+        self.head = self.segments[0]

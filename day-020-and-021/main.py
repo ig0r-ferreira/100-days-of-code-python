@@ -7,12 +7,12 @@ from scoreboard import Scoreboard
 enter = False
 
 
-def on_enter(*_):
+def on_enter(*_) -> None:
     global enter
     enter = True
 
 
-def main():
+def main() -> None:
     screen = turtle.Screen()
     screen.setup(width=600, height=600)
     screen.title("My Snack Game")
@@ -43,7 +43,7 @@ def main():
     screen.onkey(snake.left, "Left")
     screen.onkey(snake.right, "Right")
 
-    while not snake.collided():
+    while True:
         screen.update()
         time.sleep(0.1)
         snake.move()
@@ -53,8 +53,9 @@ def main():
             scoreboard.increase()
             food.refresh()
 
-    scoreboard.game_over()
-    screen.mainloop()
+        if snake.collided():
+            scoreboard.reset_scoreboard()
+            snake.reset()
 
 
 if __name__ == "__main__":
