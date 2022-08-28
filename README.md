@@ -27,3 +27,4 @@
 - :white_check_mark: [Days 020 and 021](day-020-and-021): Snake Game
 - :white_check_mark: [Day 022](day-022): Pong Game
 - :white_check_mark: [Day 023](day-023): Turtle Crossing Capstone Project
+- :white_check_mark: [Day 024](day-024): Mail Merge
