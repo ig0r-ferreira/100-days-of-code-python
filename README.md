@@ -28,3 +28,5 @@
 - :white_check_mark: [Day 022](day-022): Pong Game
 - :white_check_mark: [Day 023](day-023): Turtle Crossing Capstone Project
 - :white_check_mark: [Day 024](day-024): Mail Merge
+- :white_check_mark: [Day 025](day-025): Guess the states of Brazil
+- :white_check_mark: [Day 026](day-026): NATO Alphabet
