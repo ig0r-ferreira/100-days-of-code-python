@@ -9,11 +9,16 @@ def main() -> None:
         word = input("Enter a word [type 0 to exit]: ").strip().upper()
         if word == "0":
             break
-        if len(word) < 2 or not word.isalpha():
-            print("Error: You didn't enter a word.")
+
+        if word == "":
+            print("No words have been entered.")
+        elif len(word) < 2:
+            print("You have entered a character. Please enter a word.")
+        elif not word.isalpha():
+            print("Sorry, only letters of the alphabet please.")
         else:
-            nato_word = ", ".join(map(phonetic_dict.get, word))
-            print(nato_word)
+            nato_words = ", ".join(map(phonetic_dict.get, word))
+            print(nato_words)
 
 
 if __name__ == "__main__":
