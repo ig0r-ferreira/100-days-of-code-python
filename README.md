@@ -33,3 +33,4 @@
 - :white_check_mark: [Day 027](day-027): Convert Miles to Kilometers
 - :white_check_mark: [Day 028](day-028): Pomodoro App
 - :white_check_mark: [Days 029 and 030](day-029-and-030): Password Manager App
+- :white_check_mark: [Day 031](day-031): Flash Card Capstone Project
