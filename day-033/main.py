@@ -5,13 +5,17 @@ from datetime import datetime, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
+from dotenv import dotenv_values
 
 
-SMTP_SERVER_ADDRESS: str = "smtp.mailtrap.io"
-PORT: int = 587
-USERNAME: str = "xxxxxxxxxxxxxx"
-PASSWORD: str = "xxxxxxxxxxxxxx"
-SENDER_EMAIL: str = "Private Person <from@example.com>"
+config = dotenv_values(".env")
+
+SMTP_SERVER_ADDRESS: str = config["SMTP_SERVER_ADDRESS"]
+SMTP_SERVER_PORT: int = int(config["SMTP_SERVER_PORT"])
+USERNAME: str = config["EMAIL_USERNAME"]
+PASSWORD: str = config["EMAIL_PASSWORD"]
+SENDER_EMAIL: str = config["SENDER_EMAIL"]
+RECIPIENT_EMAILS: list[str] = config["RECIPIENT_EMAILS"].split(";")
 
 
 def get_iss_coordinates() -> dict[str, float]:
@@ -67,7 +71,7 @@ def send_email(to: list[str]) -> None:
     img.add_header('Content-Disposition', 'inline', filename=img_path)
     msg.attach(img)
 
-    with smtplib.SMTP(SMTP_SERVER_ADDRESS, PORT) as server:
+    with smtplib.SMTP(SMTP_SERVER_ADDRESS, SMTP_SERVER_PORT) as server:
         server.starttls()
         server.login(user=USERNAME, password=PASSWORD)
         server.sendmail(from_addr=SENDER_EMAIL, to_addrs=to, msg=msg.as_string())
@@ -82,7 +86,7 @@ def main() -> None:
     while True:
         time.sleep(60)
         if is_night(**my_coordinates) and is_iss_overhead(**my_coordinates):
-            send_email(to=["mytest@example.com"])
+            send_email(to=RECIPIENT_EMAILS)
 
 
 if __name__ == "__main__":
