@@ -37,4 +37,4 @@
 
 ## 💪 Intermediate+
 - :white_check_mark: [Day 032](day-032): Birthday Wisher
-- :white_check_mark: [Day 033](day-033): ISS Overhead Notifier
+- :white_check_mark: [Day 033](https://github.com/ig0r-ferreira/iss-overhead-notifier): ISS Overhead Notifier
