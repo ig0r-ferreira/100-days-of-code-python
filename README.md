@@ -23,7 +23,7 @@
 
 - :white_check_mark: [Day 015](day-015): Coffee Machine
 - :white_check_mark: [Day 016](day-016): Coffee Machine in OOP
-- :white_check_mark: [Day 017](https://github.com/ig0r-ferreira/quizzler-app/tree/version-no-gui): CLI Quiz App
+- :white_check_mark: [Day 017](https://github.com/ig0r-ferreira/quizzler-app/tree/cli-version): CLI Quiz App
 - :white_check_mark: [Day 018](day-018): Hirst Painting
 - :white_check_mark: [Day 019](day-019): Turtle Race
 - :white_check_mark: [Days 020 and 021](day-020-and-021): Snake Game
