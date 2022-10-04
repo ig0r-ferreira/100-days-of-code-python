@@ -41,3 +41,5 @@
 - :white_check_mark: [Day 032](day-032): Birthday Wisher
 - :white_check_mark: [Day 033](https://github.com/ig0r-ferreira/iss-overhead-notifier): ISS Overhead Notifier
 - :white_check_mark: [Day 034](https://github.com/ig0r-ferreira/quizzler-app/tree/main): GUI Quiz App
+- :white_check_mark: [Day 035](https://github.com/ig0r-ferreira/rain-alert): Rain Alert
+- :white_check_mark: [Day 036](https://github.com/ig0r-ferreira/stock-trading-alert): Stock Trading Alert
