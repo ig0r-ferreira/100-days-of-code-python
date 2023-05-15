@@ -41,3 +41,13 @@
 - :white_check_mark: [Day 034](https://github.com/ig0r-ferreira/quizzler-app/tree/main): GUI Quiz App
 - :white_check_mark: [Day 035](https://github.com/ig0r-ferreira/rain-alert): Rain Alert
 - :white_check_mark: [Day 036](https://github.com/ig0r-ferreira/stock-trading-alert): Stock Trading Alert
+- :white_check_mark: [Day 038](https://github.com/ig0r-ferreira/workout-tracking): Workout Tracking
+- :white_check_mark: [Days 039 and 040](https://github.com/ig0r-ferreira/flight-deal-finder): Flight Deal Finder
+- :white_check_mark: [Day 045](https://github.com/ig0r-ferreira/top-100-best-movies): Top 100 best movies
+- :white_check_mark: [Day 047](https://github.com/ig0r-ferreira/amazon-price-tracker): Amazon Price Tracker
+- :white_check_mark: [Day 048](https://github.com/ig0r-ferreira/cookieclicker): Cookie Clicker Bot
+- :white_check_mark: [Day 056](https://github.com/ig0r-ferreira/business-card): Business Card
+
+## 🚀Advanced
+- :white_check_mark: [Days 062 and 066](https://github.com/ig0r-ferreira/coffee-and-wifi): Coffee and Wi-fi with REST API
+- :white_check_mark: [Day 063](https://github.com/ig0r-ferreira/virtual-bookshelf): Virtual Bookshelf
