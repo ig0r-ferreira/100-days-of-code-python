@@ -51,3 +51,4 @@
 ## 🚀Advanced
 - :white_check_mark: [Days 062 and 066](https://github.com/ig0r-ferreira/coffee-and-wifi): Coffee and Wi-fi with REST API
 - :white_check_mark: [Day 063](https://github.com/ig0r-ferreira/virtual-bookshelf): Virtual Bookshelf
+- :white_check_mark: [Day 068](https://github.com/ig0r-ferreira/flask-user-auth-example): User Authentication with Flask
