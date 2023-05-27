@@ -52,3 +52,6 @@
 - :white_check_mark: [Days 062 and 066](https://github.com/ig0r-ferreira/coffee-and-wifi): Coffee and Wi-fi with REST API
 - :white_check_mark: [Day 063](https://github.com/ig0r-ferreira/virtual-bookshelf): Virtual Bookshelf
 - :white_check_mark: [Day 068](https://github.com/ig0r-ferreira/flask-user-auth-example): User Authentication with Flask
+- :white_check_mark: [Day 071](day-071): College Salary Data Analysis
+- :white_check_mark: [Day 072](day-072): Programming Language Data Analysis
+- :white_check_mark: [Day 073](day-073): LEGO Data Analysis
