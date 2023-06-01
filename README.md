@@ -9,7 +9,7 @@
 - :white_check_mark: [Day 003](day-003): Treasure Island
 - :white_check_mark: [Day 004](https://github.com/ig0r-ferreira/rock-paper-scissors-game): Rock, Paper, Scissors Game
 - :white_check_mark: [Day 005](day-005): Random Password Generator
-- :white_check_mark: [Day 007](day-007): Hangman Game
+- :white_check_mark: [Day 007](https://github.com/ig0r-ferreira/hangman): Hangman Game
 - :white_check_mark: [Day 008](https://github.com/ig0r-ferreira/caesar-cipher): Caesar Cipher
 - :white_check_mark: [Day 009](day-009): Blind Auction
 - :white_check_mark: [Day 010](day-010): Calculator
