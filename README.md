@@ -56,3 +56,4 @@
 - :white_check_mark: [Day 072](day-072): Programming Language Data Analysis
 - :white_check_mark: [Day 073](day-073): LEGO Data Analysis
 - :white_check_mark: [Day 074](day-074): Google Trends Data: Resampling and Visualising Time Series
+- :white_check_mark: [Day 075](day-075): Google Play Store Data Analysis
