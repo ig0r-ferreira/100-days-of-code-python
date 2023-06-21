@@ -57,3 +57,7 @@
 - :white_check_mark: [Day 073](day-073): LEGO Data Analysis
 - :white_check_mark: [Day 074](day-074): Google Trends Data: Resampling and Visualising Time Series
 - :white_check_mark: [Day 075](day-075): Google Play Store Data Analysis
+
+## 🧑‍💻 Professional
+- :white_check_mark: [Day 081](https://github.com/ig0r-ferreira/morser): Morse Code Converter
+- :white_check_mark: [Day 083](https://gist.github.com/ig0r-ferreira/0de8b2eff41372338f612398309fce90): Tic Tac Toe CLI game
